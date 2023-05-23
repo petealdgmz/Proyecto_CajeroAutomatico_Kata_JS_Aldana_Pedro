@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #D3D3D3
+
+}
+
+#saldo-container {
+    text-align: center;
+}
+
+
+#cajero-in-Div {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#loginDiv {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input-container {
+    text-align: right;
+    margin-top: -10px;
+}
+
+.input-container label {
+    float: left;
+    margin-right: 10px;
+}
+ #nombre{
+    margin-left: 20px;
+ }
+
+#cajero-in-Div {
+    display: none;
+}
+#btnIniciar{
+    margin-bottom: 20px;
+}
+
+#btnCerrarSesion {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ h1{
+    text-align: center;
+ }
+ footer{
+    text-align: center;
+ }
+ #inputNombre{
+    margin-bottom: 7px;
+ }
+ #loginDiv, #cajero-in-Div{
+    background-color: slategray;
+ }

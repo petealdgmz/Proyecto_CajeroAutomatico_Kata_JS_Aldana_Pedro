@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero Automático</title>
+</head>
+<body>
+    <div id = "all">
+    <h1>Cajero Automático</h1>
+    <div id="loginDiv">
+        <h2>Inicio de sesión</h2>
+        <div class="input-container" id = "inputNombre">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+        </div>
+        <div class="input-container">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" required>
+        </div>
+        <button id="btnIniciar">Iniciar sesión</button>
+    </div>
+    <div id="cajeroDiv">
+        <div id="saldo-container" style="display: none;"></div>
+
+        <div id="cajero-in-Div">
+            <h2>Cajero Automático</h2>
+            <div class="opciones">
+                <button id="btnConsultar">Consultar saldo</button>
+                <button id="btnMonto">Ingresar monto</button>
+                <input type="number" id="montoInput" style="display: none;">
+                <button id="btnRetiro">Retirar saldo</button>
+            </div>
+            <button id="btnCerrarSesion">Cerrar sesión</button>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Pedro Antonio Aldana Gómez</h4>
+    </footer>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
